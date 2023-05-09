@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 // http://localhost:8080/hello
-// http://localhost:8080/hello?nickname=zhangsan&phone=123
+// http://localhost:8080/hello?nickname=zhangsan&phone=1234
     @GetMapping("/hello")
     public String hello(String nickname,String phone){
         System.out.println(phone);
